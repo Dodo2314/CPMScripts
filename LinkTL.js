@@ -19,7 +19,7 @@ var random_tm6 = getRandomInt(13000,16000);
 var random_tm7 = getRandomInt(16000,18000);
 var random_tm8 = getRandomInt(18000,20000);
 function clickerf(){
-	var element = document.getElementById("skip_button");
+	var element = document.getElementById("skip_btn2");
 	if ("click" in element){
 				element.click();
 	}else if ("dispatchEvent" in element) {
